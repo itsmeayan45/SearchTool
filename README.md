@@ -1,8 +1,8 @@
-# 🔍 AI-Powered Search Engine with Tools & Agents
+#  AI-Powered Search Engine with Tools & Agents
 
 An end-to-end Gen AI search application built with LangChain, Groq (open-source LLM), and Streamlit. This app uses intelligent agents that can search the web, research papers, and Wikipedia to answer your queries.
 
-## 🌟 Features
+##  Features
 
 - **Multi-Source Search**: Leverages DuckDuckGo, ArXiv, and Wikipedia
 - **Intelligent Agents**: Uses LangChain agents with ZERO_SHOT_REACT_DESCRIPTION pattern
@@ -11,18 +11,18 @@ An end-to-end Gen AI search application built with LangChain, Groq (open-source 
 - **Interactive UI**: Beautiful Streamlit interface with chat history
 - **Error Handling**: Comprehensive error handling and user-friendly messages
 
-## 🛠️ Tools Used
+##  Tools Used
 
 1. **DuckDuckGo Search**: For web search queries
 2. **ArXiv**: For searching academic research papers
 3. **Wikipedia**: For general knowledge queries
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Python 3.8 or higher
 - Groq API key (free from [console.groq.com](https://console.groq.com/keys))
 
-## 🚀 Installation
+##  Installation
 
 1. **Clone or navigate to the project directory**:
 
@@ -53,7 +53,7 @@ An end-to-end Gen AI search application built with LangChain, Groq (open-source 
    # Edit .env and add your Groq API key
    ```
 
-## 🎮 Usage
+##  Usage
 
 1. **Run the Streamlit app**:
 
@@ -74,7 +74,7 @@ An end-to-end Gen AI search application built with LangChain, Groq (open-source 
    - "Explain neural networks"
    - "Tell me about climate change"
 
-## 💡 How It Works
+##  How It Works
 
 1. **User Input**: You ask a question through the chat interface
 2. **Agent Reasoning**: The LLM agent decides which tools to use
@@ -82,7 +82,7 @@ An end-to-end Gen AI search application built with LangChain, Groq (open-source 
 4. **Response Generation**: The agent synthesizes information and generates a response
 5. **Display**: The response is streamed back to you in real-time
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User Query → LangChain Agent → Tool Selection → Information Retrieval → LLM Processing → Response
@@ -92,14 +92,14 @@ User Query → LangChain Agent → Tool Selection → Information Retrieval → 
                Llama3-8B (via Groq)
 ```
 
-## 📊 Example Queries
+##  Example Queries
 
 - **General Knowledge**: "What is the capital of France?"
 - **Research Papers**: "Latest papers on transformer models"
 - **Current Events**: "Recent developments in AI"
 - **Technical Topics**: "Explain backpropagation in neural networks"
 
-## 🔧 Configuration
+##  Configuration
 
 You can modify the following in `app.py`:
 
@@ -108,7 +108,7 @@ You can modify the following in `app.py`:
 - **Max Iterations**: Limit agent reasoning steps
 - **Doc Length**: Increase `doc_content_chars_max` for longer results
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -131,25 +131,26 @@ You can modify the following in `app.py`:
    - Check internet connection
    - DuckDuckGo may have rate limiting
 
-## 📝 License
+##  License
 
 This project is open source and available under the MIT License.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to submit issues or pull requests.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - LangChain for the agent framework
 - Groq for fast LLM inference
 - Streamlit for the UI framework
 - Open-source community for the tools
 
-## 📧 Contact
+##  Contact
 
 For questions or feedback, please open an issue in the repository.
 
 ---
 
-**Built with ❤️ using LangChain, Groq, and Streamlit**
+**Built with faith and  using LangChain, Groq, and Streamlit --- powered by itsmeayan45**
+
